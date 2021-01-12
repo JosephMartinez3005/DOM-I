@@ -9,7 +9,7 @@ const siteContent = {
     "img-src": "img/logo.png"
   },
   "cta": {
-    "h1": "DOM Is Awesome",
+    "h1": `DOM Is  Awesome`,
     "button": "Get Started",
     "img-src": "img/header-img.png"
   },
@@ -60,6 +60,7 @@ button.textContent =  siteContent['cta']['button']
 const mainImg = document.querySelector('#cta-img')
 mainImg.setAttribute('src', siteContent['cta']['img-src'])
 
+//All h4's
 const h4 = document.querySelectorAll('h4');
 h4[0].textContent = siteContent['main-content']['features-h4'];
 h4[1].textContent = siteContent['main-content']['about-h4']
@@ -67,6 +68,7 @@ h4[2].textContent = siteContent['main-content']['services-h4']
 h4[3].textContent = siteContent['main-content']['product-h4'];
 h4[4].textContent = siteContent['main-content']['vision-h4']
 h4[5].textContent = siteContent['contact']['contact-h4']
+  //All Paragraphs
 const p = document.querySelectorAll('p');
 p[0].textContent = siteContent['main-content']['features-content']
 p[1].textContent = siteContent['main-content']['about-content']
@@ -76,6 +78,8 @@ p[4].textContent = siteContent['main-content']['vision-content']
 p[5].textContent = siteContent['contact']['address']
 p[6].textContent = siteContent['contact']['phone']
 p[7].textContent = siteContent['contact']['email']
+p[8].textContent = siteContent['footer']['copyright']
+
 const middleImg = document.querySelector('.middle-img');
 middleImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
 
