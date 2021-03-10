@@ -7,8 +7,13 @@ body {
 .digit {
   display: inline-block;
   font-size: 80px;
+  
 }
 
 .redDigit {
   color: red;
+}
+button{
+  margin-top:20rem;
+  margin-left:-7rem;
 }
